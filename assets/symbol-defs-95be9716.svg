@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-Ellipse-3" viewBox="0 0 30 32">
+      <path stroke-width="1.8" d="M29.3 16A14.2 14.2 0 1 1 1 16a14.2 14.2 0 0 1 28.4 0z"/>
+    </symbol>
+    <symbol id="icon-Ellipse-1" viewBox="0 0 30 32">
+      <path stroke-width="1.8" d="M29.3 16A14.2 14.2 0 1 1 1 16a14.2 14.2 0 0 1 28.4 0z"/>
+    </symbol>
+    <symbol id="icon-Rectangle-3" viewBox="0 0 60 32">
+      <path stroke-width="1.9" d="M16 1h28.2a15 15 0 1 1 0 30H16a15 15 0 1 1 0-30z"/>
+    </symbol>
+  </defs>
+</svg>
