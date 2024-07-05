@@ -1,7 +1,6 @@
 .container {
   padding: 15px;
   background: #fff;
-
   justify-content: space-between;
   align-items: center;
   max-width: 600px;
@@ -34,8 +33,11 @@
 
 .logo-text p {
   margin: 0;
-  font-size: 24px;
   font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  color: #333;
 }
 
 .container-icons {
@@ -108,4 +110,20 @@
   cursor: pointer;
   text-decoration: none;
   color: #000;
+}
+
+/* Media Query for screens 768px and wider */
+@media screen and (min-width: 768px) {
+  .container {
+    display: flex;
+    min-width: 768px;
+    margin: 0 auto;
+  }
+
+  .container-icons {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
 }
