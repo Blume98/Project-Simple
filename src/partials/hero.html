@@ -1,0 +1,29 @@
+<div class="hero">
+  <div class="hero-container">
+    <div class="hero-text-content">
+      <h1 class="hero-head">Simple things. From paper</h1>
+      <p class="hero-text">
+        Paper (presumably from Italian bombagia, the original source is believed
+        to be Iranian) is a fibrous material with mineral additives.
+      </p>
+      <button class="hero-btn">Catalog</button>
+    </div>
+    <picture class="hero-picture">
+      <source
+        srcset="
+          ./img/hero/picture-desk-1x.jpeg 1x,
+          ./img/hero/picture-desk-2x.jpeg 2x
+        "
+        media="(min-width: 1440px)"
+      />
+      <source
+        srcset="
+          ./img/hero/picture-tab-1x.jpeg 1x,
+          ./img/hero/picture-tab-2x.jpeg 2x
+        "
+        media="(min-width: 768px)"
+      />
+      <img src="src/img/hero/picture-tab-1x.jpeg" alt="Hero Image" />
+    </picture>
+  </div>
+</div>
