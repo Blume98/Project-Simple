@@ -1,0 +1,137 @@
+.section-materials {
+  background-color: #ebebeb;
+  padding: 60px 15px;
+}
+
+.div-materials {
+  margin: 0 auto;
+  max-width: 360px;
+}
+
+.result-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.result-item {
+  border-top: 1px #c0c0c0 solid;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  gap: 0 30px;
+}
+
+.version-paper {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+
+.text-small-paper {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #85859b;
+}
+
+.container-big-paper {
+  margin: 0 auto;
+}
+
+.img-big-paper {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 290px;
+}
+
+.title-big-paper {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  line-height: 1;
+  color: #666;
+  margin-bottom: 14px;
+}
+
+.text-big-paper {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #85859b;
+}
+
+/* -----Tablet------ */
+
+@media screen and (min-width: 768px) {
+  .section-materials {
+    padding: 60px 39px;
+  }
+
+  .div-materials {
+    max-width: 690px;
+  }
+
+  .result-list {
+    flex-direction: row;
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  .result-item {
+    align-items: start;
+    flex-direction: column;
+    width: 210px;
+  }
+
+  .container-big-paper {
+    display: flex;
+    gap: 30px;
+  }
+
+  .title-big-paper {
+    font-size: 30px;
+  }
+
+  .text-big-paper {
+    font-size: 18px;
+  }
+
+  .container-big-paper-text {
+    max-width: 330px;
+  }
+
+  .img-big-paper {
+    max-width: 330px;
+  }
+}
+
+/* ---------Desctop-------  */
+
+@media screen and (min-width: 1440px) {
+  .div-materials {
+    max-width: 1110px;
+  }
+
+  .result-item {
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+  }
+
+  .img-big-paper {
+    max-width: 730px;
+  }
+
+  .container-big-paper-text {
+    padding-top: 59px;
+  }
+
+  .result-list {
+    margin-bottom: 90px;
+  }
+}
