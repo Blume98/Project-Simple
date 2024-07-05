@@ -1,0 +1,135 @@
+.hero {
+  max-width: 320px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  padding: 49px 15px;
+  min-width: 280px;
+}
+
+.hero-text-content {
+  width: 289px;
+  height: 230px;
+}
+.hero-content {
+  flex: 1;
+}
+
+.hero-head {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1;
+  color: #4c5866;
+  padding-right: 68px;
+  padding-bottom: 15px;
+}
+
+.hero-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #85859b;
+  padding-bottom: 21px;
+}
+
+.hero-btn {
+  display: inline-block;
+  padding: 20px 50px;
+  width: 176px;
+  height: 63px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #7875fe;
+  background-color: #fff;
+  border: 1px solid #7875fe;
+  text-align: center;
+  line-height: 23px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero-btn:focus {
+  background: #7875fe;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+}
+
+.hero-picture {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    max-width: 768px;
+  }
+
+  .hero-container {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 65px 39px;
+  }
+
+  .hero-text-content {
+    width: 390px;
+    height: 340px;
+  }
+
+  .hero-content {
+    flex: 1;
+    padding-right: 20px;
+  }
+
+  .hero-head {
+    font-size: 50px;
+    padding-bottom: 30px;
+  }
+
+  .hero-text {
+    font-size: 18px;
+    padding-bottom: 30px;
+  }
+
+  .hero-btn {
+    width: 255px;
+    height: 70px;
+    text-align: center;
+  }
+
+  .hero-picture {
+    display: block;
+    max-width: 50%;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero {
+    max-width: 1440px;
+  }
+
+  .hero-container {
+    padding: 65px 39px;
+  }
+
+  .hero-text-content {
+    padding-left: 165px;
+  }
+
+  .hero-head {
+    font-size: 60px;
+  }
+
+  .hero-picture {
+    padding-right: 165px;
+    max-width: 50%;
+  }
+}
