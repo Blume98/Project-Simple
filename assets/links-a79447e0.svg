@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden">
+  <defs>
+    <symbol id="icon-facebook" viewBox="0 0 32 32">
+      <path fill="#fff" d="M22 32V19.6h4.2l.6-4.8H22v-3c0-1.5.4-2.4 2.4-2.4H27V5c-1.3-.2-2.5-.2-3.7-.2-3.7 0-6.2 2.2-6.2 6.4v3.5h-4.2v4.8h4.2V32H1.8A1.8 1.8 0 0 1 0 30.2V1.8A1.8 1.8 0 0 1 1.8 0h28.4c.5 0 1 .2 1.3.5s.5.8.5 1.3v28.4a1.8 1.8 0 0 1-1.8 1.8H22z" style="fill:var(--color1, #fff)"/>
+    </symbol>
+    <symbol id="icon-inst" viewBox="0 0 32 32">
+      <path fill="#fff" d="m16 0 6.6.1c1.7 0 2.9.3 3.9.7 1 .4 2 1 2.8 1.9.8.8 1.5 1.8 1.9 2.8.4 1 .6 2.2.7 3.9a116.3 116.3 0 0 1-.7 17c-.4 1.1-1 2.1-1.9 3-.8.7-1.8 1.4-2.8 1.8-1 .4-2.2.6-4 .7a116.3 116.3 0 0 1-17-.7c-1-.4-2-1-2.8-1.9a7.9 7.9 0 0 1-1.9-2.8c-.4-1-.6-2.2-.7-4a116.3 116.3 0 0 1 .7-17c.4-1 1-2 1.9-2.8.8-.8 1.8-1.5 2.8-1.9 1-.4 2.2-.6 4-.7L16 0zm0 8a8 8 0 1 0 0 16 8 8 0 0 0 0-16zm10.4-.4a2 2 0 1 0-4 0 2 2 0 0 0 4 0zM16 11.2a4.8 4.8 0 1 1 0 9.6 4.8 4.8 0 0 1 0-9.6z" style="fill:var(--color1, #fff)"/>
+    </symbol>
+    <symbol id="icon-Line" viewBox="0 0 9280 32">
+      <path fill="#ddd" d="M0 0h9280v32H0V0z" opacity=".2" style="fill:var(--color2, #ddd)"/>
+    </symbol>
+    <symbol id="icon-symbol-defs" viewBox="0 0 32 32">
+      <path fill="#ddd" d="M0 0h9280v32H0V0z" opacity=".2" style="fill:var(--color2, #ddd)"/>
+    </symbol>
+    <symbol id="icon-twetter" viewBox="0 0 39 32">
+      <path fill="#fff" d="M37.6 4.7A15 15 0 0 1 33.4 6c1.5-1 2.7-2.4 3.2-4.1-1.4.8-3 1.5-4.7 1.8a7.4 7.4 0 0 0-12.7 6.8A21.1 21.1 0 0 1 4 2.6a7.4 7.4 0 0 0 2.3 10c-1.2-.1-2.3-.4-3.4-1a7.4 7.4 0 0 0 6 7.4c-1 .3-2.2.3-3.4.1a7.4 7.4 0 0 0 7 5.2 15 15 0 0 1-11 3A21 21 0 0 0 33.9 8.5c1.5-1 2.7-2.3 3.7-3.8z" style="fill:var(--color1, #fff)"/>
+    </symbol>
+    <symbol id="icon-youtube" viewBox="0 0 40 32">
+      <path fill="#fff" d="M39 5c1 3.6 1 11 1 11s0 7.4-1 11c-.4 2-2 3.5-3.8 4-3.4 1-15.2 1-15.2 1S8.2 32 4.8 31c-1.9-.5-3.4-2-3.9-4C0 23.4 0 16 0 16S0 8.6 1 5c.4-2 2-3.5 3.8-4C8.2 0 20 0 20 0s11.8 0 15.2 1c1.9.5 3.4 2 3.9 4zM16 23l12-7-12-7v14z" style="fill:var(--color1, #fff)"/>
+    </symbol>
+  </defs>
+</svg>
