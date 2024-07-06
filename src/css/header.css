@@ -1,17 +1,33 @@
-.container {
-  padding: 15px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+}
+
+header {
   background: #fff;
-  justify-content: space-between;
+  min-width: 320px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  max-width: 600px;
+  min-width: 320px;
   margin: 0 auto;
+  padding-top: 10px;
 }
 
 .container-logo {
   display: flex;
   justify-content: center;
-  padding-bottom: 5px;
-  min-width: 320px;
+  align-items: center;
+  padding-bottom: 10px;
 }
 
 .logo-menu {
@@ -44,9 +60,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 250px;
-  padding-top: 5px;
-  min-width: 320px;
+  min-width: 100%;
+  border-top: 1px solid #ddd;
+  padding-top: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  gap: 276px;
 }
 
 .container-icons button,
@@ -61,6 +80,10 @@
   width: 24px;
   height: 24px;
   vertical-align: middle;
+}
+
+.container-nav {
+  display: none;
 }
 
 /* Mobile Menu CSS */
@@ -98,7 +121,7 @@
   color: #000;
 }
 
-#menu-toggle:checked + .menu {
+#menu-toggle:checked + .menu-icon + .search-btn + .menu {
   right: 0;
 }
 
@@ -114,16 +137,53 @@
 
 /* Media Query for screens 768px and wider */
 @media screen and (min-width: 768px) {
-  .container {
-    display: flex;
+  header {
     min-width: 768px;
+  }
+
+  .container {
+    padding-top: 11px;
+    padding-left: 40px;
+    padding-right: 40px;
     margin: 0 auto;
+    max-width: 100%;
+  }
+
+  .container-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 768px;
   }
 
   .container-icons {
     display: none;
   }
-  .menu {
-    display: none;
+
+  .container-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
+  .container-nav-menu {
+    display: flex;
+    justify-content: center;
+    gap: 111px;
+    width: 100vw;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+
+  .container-nav-list {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #4c5866;
+  }
+}
+
+@media screen and (min-width: 768px) {
 }
