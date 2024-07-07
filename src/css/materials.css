@@ -31,6 +31,14 @@
   color: #666;
 }
 
+.img-small-paper {
+  max-width: 100%;
+}
+
+.container-text {
+  max-width: 130px;
+}
+
 .text-small-paper {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -125,6 +133,26 @@
 
   .img-big-paper {
     max-width: 730px;
+  }
+
+  .title-big-paper {
+    font-size: 35px;
+  }
+
+  .version-paper {
+    font-size: 21px;
+  }
+
+  .text-small-paper {
+    font-size: 20px;
+  }
+
+  .text-big-paper {
+    font-size: 21px;
+  }
+
+  .container-text {
+    max-width: 160px;
   }
 
   .container-big-paper-text {
