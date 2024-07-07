@@ -2,48 +2,81 @@
   <div class="div-materials">
     <ul class="result-list">
       <li class="result-item">
-        <img
-          srcset="
-            ./img/Materials/Buissnes-Cards-v2-1x-min.png 1x,
-            ./img/Materials/Buissnes-Cards-v2-2x-min.png 2x
-          "
-          src="./img/Materials/Buissnes-Cards-v2-1x-min.png"
-          alt="paper-v1"
-          width="150"
-          class="img-small-paper"
-        />
+        <picture class="img-small-paper">
+          <source
+            srcset="
+              ../img/Materials/Buissnes-Cards-v2-tab-1x-min.png 1x,
+              ../img/Materials/Buissnes-Cards-v2-tab-2x-min.png 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/Materials/Buissnes-Cards-v2-1x-min.png 1x,
+              ./img/Materials/Buissnes-Cards-v2-2x-min.png 2x
+            "
+            media="(max-width: 768px)"
+          />
+
+          <img
+            src="./img/Materials/Buissnes-Cards-v2-1x-min.png"
+            alt="paper-v1"
+          />
+        </picture>
         <div class="container-text">
           <h2 class="version-paper">V.1</h2>
           <p class="text-small-paper">Result of your learning</p>
         </div>
       </li>
       <li class="result-item">
-        <img
-          srcset="
-            ./img/Materials/Buissnes-Cards-v6-11x-min.png 1x,
-            ./img/Materials/Buissnes-Cards-v6-12x-min.png 2x
-          "
-          src="./img/Materials/Buissnes-Cards-v6-11x-min.png"
-          alt="paper-v2"
-          width="150"
-          class="img-small-paper"
-        />
+        <picture class="img-small-paper">
+          <source
+            srcset="
+              ./img/Materials/Buissnes-Cards-v6-tab-1x-min.png 1x,
+              ./img/Materials/Buissnes-Cards-v6-tab-2x-min.png 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/Materials/Buissnes-Cards-v6-11x-min.png 1x,
+              ./img/Materials/Buissnes-Cards-v6-12x-min.png 2x
+            "
+            media="(max-width: 768px)"
+          />
+
+          <img
+            src="./img/Materials/Buissnes-Cards-v6-11x-min.png"
+            alt="paper-v2"
+          />
+        </picture>
         <div class="container-text">
           <h2 class="version-paper">V.2</h2>
           <p class="text-small-paper">Result of your learning</p>
         </div>
       </li>
       <li class="result-item">
-        <img
-          srcset="
-            ./img/Materials/Buissnes-Cards-v5-11x-min.png 1x,
-            ./img/Materials/Buissnes-Cards-v5-12x-min.png 2x
-          "
-          src="./img/Materials/Buissnes-Cards-v5-11x-min.png"
-          alt="paper-v3"
-          width="150"
-          class="img-small-paper"
-        />
+        <picture class="img-small-paper">
+          <source
+            srcset="
+              ./img/Materials/Buissnes-Cards-v5-tab-1x-min.png 1x,
+              ./img/Materials/Buissnes-Cards-v5-tab-2x-min.png 2x
+            "
+            media="(min-width: 768px)"
+          />
+          <source
+            srcset="
+              ./img/Materials/Buissnes-Cards-v5-11x-min.png 1x,
+              ./img/Materials/Buissnes-Cards-v5-12x-min.png 2x
+            "
+            media="(max-width: 768px)"
+          />
+
+          <img
+            src="./img/Materials/Buissnes-Cards-v5-11x-min.png"
+            alt="paper-v3"
+          />
+        </picture>
         <div class="container-text">
           <h2 class="version-paper">V.3</h2>
           <p class="text-small-paper">Result of your learning</p>
@@ -54,24 +87,25 @@
       <picture>
         <source
           srcset="
-            ./img/Materials/Folder-v8-Open-11x-min.png 1x,
-            ./img/Materials/Folder-v8-Open-12x-min.png 2x
+            ./img/Materials/Big-paper-des-1x-min.png 1x,
+            ./img/Materials/Big-paper-des-2x-min.png 2x
           "
-          media="(max-width: 768px)"
+          media="(min-width: 1440px)"
         />
+
         <source
           srcset="
             ./img/Materials/Big-paper-tab-1x-min.png 1x,
             ./img/Materials/Big-paper-tab-2x-min.png 2x
           "
-          media="(max-width: 1439px)"
+          media="(max-width: 1440px)"
         />
         <source
           srcset="
-            ./img/Materials/Big-paper-des-1x-min.png 1x,
-            ./img/Materials/Big-paper-des-2x-min.png 2x
+            ./img/Materials/Folder-v8-Open-11x-min.png 1x,
+            ./img/Materials/Folder-v8-Open-12x-min.png 2x
           "
-          media="(min-width: 1439px)"
+          media="(max-width: 768px)"
         />
         <img
           src="./img/Materials/Folder-v8-Open-11x-min.png"
