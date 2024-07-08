@@ -1,0 +1,49 @@
+.section-partners {
+  padding: 60px 15px;
+  background-color: #ebebeb;
+}
+
+.container-partners {
+  position: relative;
+  left: 0;
+  display: flex;
+  align-items: center;
+  overflow: auto;
+}
+
+.partners-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 30px;
+}
+
+.partners-item {
+  border: 2px rgba(128, 128, 128, 0.526) solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 120px;
+  flex-shrink: 0;
+}
+/* -----Tab------ */
+
+@media screen and (min-width: 768px) {
+  .partners-item {
+    height: 50px;
+    max-width: 110px;
+    padding: 20px;
+  }
+  .container-partners {
+    justify-content: center;
+  }
+}
+/* -------Desc------- */
+@media screen and (min-width: 1440px) {
+  .partners-item {
+    max-width: 270px;
+    height: 150px;
+  }
+}
