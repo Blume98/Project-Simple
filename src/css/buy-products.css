@@ -1,9 +1,9 @@
-.container {
+.container-order {
   margin: 0 auto;
   padding: 60px 15px;
 }
 
-.container-content {
+.container-content-order {
   max-width: 289px;
   margin: 0 auto;
 }
@@ -57,11 +57,11 @@
 /* ----------width-tab---------- */
 
 @media screen and (min-width: 768px) {
-  .container {
+  .container-order {
     padding: 60px 30px;
   }
 
-  .container-content {
+  .container-content-order {
     max-width: 690px;
     display: flex;
     flex-direction: row-reverse;
@@ -95,11 +95,11 @@
 /* -----Width-1440-------- */
 
 @media screen and (min-width: 1440px) {
-  .container {
+  .container-order {
     padding: 90px 165px 0px 165px;
   }
 
-  .container-content {
+  .container-content-order {
     max-width: 1110px;
     gap: 30px;
   }
