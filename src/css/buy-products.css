@@ -8,7 +8,7 @@
   margin: 0 auto;
 }
 
-.container-text {
+.container-text-order {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -73,7 +73,7 @@
     left: 40px;
   }
 
-  .container-text {
+  .container-text-order {
     max-width: 330px;
   }
 
@@ -108,7 +108,7 @@
     position: static;
   }
 
-  .container-text {
+  .container-text-order {
     margin-top: 24px;
   }
 
