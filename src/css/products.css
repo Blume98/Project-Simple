@@ -20,6 +20,7 @@
 
 .products-list {
   width: 290px;
+  position: relative;
 }
 
 .products-photo {
@@ -60,12 +61,11 @@
   cursor: pointer;
   background-color: transparent;
   border: none;
+  padding: 0;
+  position: absolute;
 }
 
 @media screen and (min-width: 768px) {
-  .container-products {
-  }
-
   .container-new-products {
     max-width: 768px;
   }
@@ -106,5 +106,9 @@
   .products-list {
     width: 255px;
     height: 465px;
+  }
+
+  .products-btn {
+    bottom: 10px;
   }
 }
