@@ -8,12 +8,12 @@
   padding: 49px 15px;
 }
 .hero-text-content {
-  min-width: 320px;
+  min-width: 290px;
 }
 .hero-head {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 30px;
+  font-size: 40px;
   line-height: 1;
   color: #4c5866;
   padding-bottom: 15px;
@@ -101,6 +101,10 @@
 
   .hero-container {
     max-width: 1440px;
+  }
+
+  .hero-head {
+    font-size: 60px;
   }
 
   .hero-text-content {
