@@ -42,12 +42,6 @@
   color: #fff;
 }
 
-.button-buy:focus {
-  border: 1px solid #7875fe;
-  background: #dad9fb;
-  color: #7875fe;
-}
-
 .button-buy:active {
   border: none;
   background: #4946b4;
@@ -87,7 +81,6 @@
   }
 
   .button-buy {
-    font-size: 18px;
     padding: 23.5px 94.5px;
   }
 }
