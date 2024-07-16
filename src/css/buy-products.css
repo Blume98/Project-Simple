@@ -38,12 +38,10 @@
 
 .button-buy:hover {
   background: #7875fe;
-  border: none;
   color: #fff;
 }
 
 .button-buy:active {
-  border: none;
   background: #4946b4;
   color: #fff;
 }
