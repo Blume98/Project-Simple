@@ -13,7 +13,7 @@
 .hero-head {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 38px;
   line-height: 1;
   color: #4c5866;
   padding-bottom: 15px;
@@ -43,11 +43,16 @@
   transition: background-color 0.3s;
 }
 
-.hero-btn:focus {
+.hero-btn:hover {
   background: #7875fe;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 20px;
+  color: #fff;
+}
+
+.hero-btn:active {
+  background-color: #4946b4;
   color: #fff;
 }
 
