@@ -5,7 +5,6 @@ document.addEventListener('DOMContentLoaded', function () {
   let position = 0;
 
   container.style.overflowX = 'hidden';
-
   function moveElements() {
     const firstItem = list.firstElementChild;
     const firstItemRect = firstItem.getBoundingClientRect();
